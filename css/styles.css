@@ -1,16 +1,33 @@
-body {
-    background-color: #A8D1D1;
+.top{
+    border: 10px;
+    border: solid;
+    background-color: cadetblue;
+    margin-bottom: 0%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
 }
+body{
+    margin-top: 0%;
+    margin: 0;
+
+}
+.middle{
+    border: 20px;
+    border: solid;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    margin-left: 240px;
+}
+.bottom{
+    border: solid;
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    margin-left: 440px;
+}
+
 h1{
-    color:#ADA2FF;
-}
-h3{
-    color:#ADA2FF;
-}
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    border-color: gray;
-    width: 5%;
+    margin-top: 0;
 }
