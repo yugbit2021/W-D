@@ -1,16 +1,20 @@
 .top{
-    border: 10px;
-    border: solid;
+    
     background-color: cadetblue;
     margin-bottom: 0%;
-    height: 200px;
-    width: 200px;
+    
     padding: 20px;
 }
 body{
     margin-top: 0%;
     margin: 0;
+    text-align: center;
 
+
+}
+.top{
+    position: relative;
+    padding-top: 100px;
 }
 .middle{
     border: 20px;
@@ -20,6 +24,21 @@ body{
     background-color: aquamarine;
     margin-left: 240px;
 }
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top:50px;
+}
+.words{
+    position: absolute;
+    right: 350px;
+    top: 80px;
+}
 .bottom{
     border: solid;
     height: 200px;
@@ -27,6 +46,7 @@ body{
     background-color: blanchedalmond;
     margin-left: 440px;
 }
+
 
 h1{
     margin-top: 0;
