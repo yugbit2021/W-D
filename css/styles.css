@@ -9,21 +9,29 @@ body{
     margin-top: 0%;
     margin: 0;
     text-align: center;
+    font-size: 1em;
+    
 
-
+}
+h1{
+    font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+    margin: 50px auto 0 auto ;
+    color: #012525;
+}
+h3{
+    color:#66BFBF;
+}
+.j{
+    font-size: 2.5rem;
+    color: #012525; 
+    font-weight: normal;
 }
 .top{
     position: relative;
     padding-top: 100px;
 }
-.middle{
-    border: 20px;
-    border: solid;
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
-    margin-left: 240px;
-}
+
 .bottom-cloud{
     position:absolute;
     left: 300px;
@@ -34,20 +42,26 @@ body{
     right: 300px;
     top:50px;
 }
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+.web{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.song{
+    float:right;
+    margin-left: 30px;
+    width: 25%;
+}
 .words{
     position: absolute;
     right: 350px;
     top: 80px;
 }
-.bottom{
-    border: solid;
-    height: 200px;
-    width: 200px;
-    background-color: blanchedalmond;
-    margin-left: 440px;
-}
 
 
-h1{
-    margin-top: 0;
-}
