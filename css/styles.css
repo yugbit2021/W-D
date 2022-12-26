@@ -19,8 +19,15 @@ font-size: 5.625rem;
     margin: 50px auto 0 auto ;
     color: #012525;
 }
+h2{
+    color:#66BFBF;
+}
 h3{
     color:#66BFBF;
+}
+.btn{
+    background-color: #66BFBF;
+    border-color: #66BFBF;
 }
 .j{
     font-size: 2.5rem;
@@ -62,6 +69,16 @@ line-height: 2;
     position: absolute;
     right: 350px;
     top: 80px;
+}
+.last{
+    color: #EAF6F6;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 30px;
+}
+.footer-link{
+    color: #11999E;
 }
 
 
