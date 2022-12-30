@@ -2,7 +2,14 @@
     background-color:#ff4c68;
 }
 .f-row{
-    font-family: "Montserrat-black";
+    font-family: "Montserrat-Black";
     size: 3rem;
     list-style: 1.5;
+}
+.container-fluid{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
 }
