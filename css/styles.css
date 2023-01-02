@@ -1,15 +1,74 @@
 #title{
+    color: #fff;
     background-color:#ff4c68;
 }
-.f-row{
+h1{
     font-family: "Montserrat-Black";
-    size: 3rem;
+    size: 3.5rem;
     list-style: 1.5;
 }
+h3{
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+}
 .container-fluid{
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 3% 15%;
+}
+body{
+    font-family:"Montserrat";
+}
 
+
+/* Navigation bar */
+
+.navbar{
+padding: 0 0 4.5rem;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-brand{
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-weight: lighter;
+    font-size: 1.2rem;
+
+}
+
+
+/* downlod */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-img{
+    width: 50%;
+    height: 50%;
+    transform: rotate(25deg);
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: gray;
+}
+.fa-solid{
+    color:#ef8172;
+}
+.fa-solid:hover{
+    color: #ff4c68;
 }
