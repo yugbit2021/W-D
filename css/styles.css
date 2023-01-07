@@ -72,3 +72,30 @@ p{
 .fa-solid:hover{
     color: #ff4c68;
 }
+/* 
+testimonials */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1rem;
+}
+.testimonial-img{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;  
+}
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
