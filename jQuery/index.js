@@ -1,4 +1,17 @@
-$("h1").before("<button>New</button");
-$("h1").after("<button>New</button");
-$("h1").prepend("<button>YHH</button");
-$("h1").append("<button>hhy</button");
+// $("button").on("click",function(){
+//     $("h1").hide();
+// });
+// $("button").on("click",function(){
+//     $("h1").fadeOut();
+// });
+
+// $("button").on("click",function(){
+//     $("h1").fadeToggle();
+// });
+// $("button").on("click",function(){
+//     $("h1").slideUp();
+// });
+
+$("button").on("click",function(){
+    $("h1").animate({opacity:0.5});
+});
