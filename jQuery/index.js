@@ -1,1 +1,3 @@
-$("a").attr("href","https://www.yahoo.com");
+$("h1").on("mouseover", function(event){
+  $("h1").css("color","purple");
+});
