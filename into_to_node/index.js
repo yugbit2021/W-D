@@ -1,7 +1,7 @@
-const superheroes = require('superheroes');
- 
-superheroes.all;
-//=> ['3-D Man', 'A-Bomb', …]
- 
-var mySuperhero=superheroes.random();
-console.log(mySuperhero);
+const supervillains = require('supervillains');
+
+supervillains.all;
+//=> ['Abattoir', 'Able Crown', …]
+
+const mysupervillains=supervillains.random();
+console.log(mysupervillains);
